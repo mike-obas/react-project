@@ -1,0 +1,37 @@
+html{padding: 0}
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+.pageComponents{
+  padding: 0px 10px;
+}
+.routerLink {
+  text-decoration: none;
+  color: inherit;
+}
+.coloredLink{
+  text-decoration: none;
+}
+.coloredLink:hover{
+  text-decoration: underline;
+}
+.customScrollBar {
+  scrollbar-width: thin;
+  scrollbar-color: #bfbfbf #fff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.customScrollBar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.customScrollBar::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.customScrollBar::-webkit-scrollbar-thumb {
+  background-color: #bfbfbf;
+  border-radius: 20px;
+  border: 6px solid #fff;
+}
